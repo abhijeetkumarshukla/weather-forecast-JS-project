@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+     
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(170, 121, 58);
+    /* height: 4rem; */
+    display: flex;
+    justify-content: space-around;
+     align-items: center; 
+    /* position: fixed; */
+
+    
+}
+
+#text{
+    width: 400px;
+    padding: 8px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    margin-right: -1px;
+}
+#submit{
+    cursor: pointer;
+    padding: 8px;
+    margin-left: -3px;
+    border: none; 
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: black;
+    color: wheat;
+}
+#submit:active{
+    background-color: yellow;
+    color: green;
+}
+
+
+.left>button{
+    padding: 8px;
+    background-color: rgb(170, 121, 58);
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: black;
+    color: wheat;
+    gap: 20px;
+    border-radius: 10px;
+}
+#container{
+    background-image: linear-gradient(120deg,rgb(0, 247, 99), skyblue, rgb(0, 208, 255), rgb(227, 239, 89),rgb(45, 193, 251),  rgb(0, 157, 255),rgb(0, 247, 99));
+    width: 50%;
+    padding: 20px;
+    padding-top: 5rem;
+    border-radius: 5px;
+    color: black;
+}
+body{
+    background-color: black;
+    color: white;
+}
+iframe{
+border-radius: 5px;
+}
+.forecast{
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.forecast-container{
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(120deg,rgb(0, 247, 99), skyblue, rgb(0, 208, 255),rgb(45, 193, 251),  rgb(0, 157, 255),rgb(0, 247, 99));
+    width: 70%;
+    color: black;
+    border-radius: 10px;
+    
+
+}
+.forecast>h2{
+    text-align: center;
+    color: rgb(236, 198, 128);
+    text-decoration: underline;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.last{
+    background-color: black;
+    height: 30px;
+    width: 100%;
+}
+.img>img{
+    width: 100%;
+
+}
+
+.img{
+     width: 100px;
+     margin-top: 0;
+      
+   
+}

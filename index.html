@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+
+    <div class="navbar">
+        <div class="img">
+            <img src="img/Picsart_24-02-20_19-31-30-729-removebg-preview.png" alt="">
+        </div>
+        <form>
+            <input id="text" type="text">
+            <input id="submit" type="submit">
+        </form>
+    
+         <div class="left">
+            <button id="btn1">Navigator</button>
+            <button id="btn2">Different Weather? </button>
+            <button id="btn3">Metric: *C, m/s </button>
+            <button id="btn4">imperial: *F, mph</button>
+         </div>
+    </div>
+    
+     <div class="main">
+        <div id="container">
+            <p id="temp">Current Temperature:</p>
+            <br>
+            <p id="max-temp">Max Temperature:</p><br>
+            <p id="min-temp">Min Temperature :</p><br>
+             <p id="wind">Wind  :</p><br>
+            <p id="clouds">Clouds  :</p><br>
+            <p id="sunrise">Sunrise:</p><br>
+            <p id="sunset">Sunset  :</p>
+        </div>
+        
+         
+        <iframe
+      width="550"
+      height="450"
+      style="border:0"
+      loading="lazy"
+      src="https://www.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      >
+    </iframe>
+     </div>
+    
+      
+     <section class="forecast">
+        <h2>5-Day Forecast</h2>
+        <div class="forecast-container"></div>
+    </section>
+    
+    <div class="last">
+    
+    </div>
+
+
+</body>
+<script src="javascript/script.js"></script>
+</html>
