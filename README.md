@@ -1,7 +1,5 @@
 # weather-forecast-JS-project
 
-# Weather App
-
 
 # Introduction :-
 
@@ -21,6 +19,9 @@ HTML:   Used for structuring the web page and defining its content.
 CSS:    Used for styling the elements and layout of the web page.
 JavaScript:   Used for fetching data from the OpenWeatherMap API, handling user interactions, and dynamically updating the web page content.
 OpenWeatherMap API:  Used for retrieving weather data for the specified location.
+
+# Experience
+Deployed the application on Netlify. You can access it :- https://weatherforecastwebapp17.netlify.app/
 
 
 # Usage :-
